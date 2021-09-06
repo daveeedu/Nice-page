@@ -1,0 +1,364 @@
+*::before,*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'open sans',sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+.row {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+.row-column {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.row-100 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.row-column-100 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-font{
+    font-family: 'playfair display', serif ;
+}
+
+header {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    padding: 60px;
+    background-image: url(../Image/girl-1098612_1920.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: fit-content;
+}
+
+.barner-heading {
+    font-size: 6rem;
+    font-style: italic;
+    padding-right: 60px;
+}
+.barner-text {
+    width: 100%;
+    height: fit-content;
+    font-size: 0.9rem;
+    font-weight: normal;
+    background-color: white;
+    color: black;
+    padding: 80px 30px 80px;
+}
+.sec-one {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    background-color: #d9b1b3;
+    color: white;
+    width: fit-content;
+}
+
+.content-two {
+    font-size: 2.3rem;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+.content-two span {
+    font-size: 7rem;
+    line-height: 0;
+}
+.sec-one p {
+    font-size: 1.4rem;
+    width: 50%;
+}
+
+.gallary .img-container {
+    height: 500px;
+    width: fit-content;
+    display: flex;
+    flex-grow: 1;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.gallary .gallary-img-1 {
+    background-image: url(../Image/Image1.jpeg);
+}
+
+.gallary .gallary-img-2 {
+    background-image: url(../Image/image2.jpeg);
+}
+
+.gallary .gallary-img-3 {
+    background-image: url(../Image/image3.jpeg);
+}
+
+.gallary .gallary-img-4 {
+    background-image: url(../Image/image4.jpeg);
+}
+
+.gallary .gallary-img-5 {
+    background-image: url(../Image/image5.jpeg);
+}
+
+.gallary .gallary-img-6 {
+    background-image: url(../Image/image6.jpeg);
+}
+.coming-soon {
+    background-color: #d9b1b3;
+    color: white;
+}
+.coming-soon .row-column-100 {
+    justify-content: center;
+}
+.coming-soon .coming-soon-heading,
+.coming-soon .coming-soon-text,
+.coming-soon .coming-soon-form{
+    text-align: center;
+    height: 60px;
+}
+
+.coming-soon .coming-soon-heading {
+    font-size: 4.5rem;
+    font-style: italic;
+}
+.coming-soon .coming-soon-text{
+    font-size: 1.3rem;
+}
+
+.coming-soon-form .row-100{
+    justify-content: center;
+}
+.coming-soon-form .input-container{
+    display: flex;
+    justify-content: center;
+    padding: 0 5px 20px;
+}
+
+.input-container .text-input,
+.input-container .form-but{
+    padding: 12px 10px ;
+    border: unset;
+    border-radius: 20px;
+}
+.input-container .form-but{
+    background-color: black;
+    color: white;
+    padding: 0 30px;
+}
+.sec-two {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+.sec-two .sec-two-image {
+    padding: 40px 40px 0 40px;
+}
+.sec-two .sec-two-content {
+    padding: 12% 0;
+    font-size: 1.25rem;
+    text-align: justify;
+}
+.sec-two .sec-two-content .sign{
+    width: 328px;
+    height: 55px;
+    margin: 30px auto 0 0;
+}
+.gallary-two {
+    background-color: #d9b1b3;
+    color: white;
+
+}
+.gallary-two .spring {
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 700;
+    width: 606px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.gallary-two .gallary-two-image {
+    width: 1100px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    
+    
+}
+.gallary-two .img-contain-two {
+    height: 400px;
+    display: flex;
+    flex-grow: 5;
+    background-position: center;
+    
+   
+}
+.gallary-two .gallary-two-img-1 {
+   background-image: url(../Image/shit.jpg);
+   background-repeat: no-repeat;
+   background-size: 95%;
+   align-content: center;
+   
+   
+}
+.gallary-two .gallary-two-img-2 {
+    background-image: url(../Image/shades.jpg);
+    background-repeat: no-repeat;
+    background-size: 95%;
+    align-content: center;
+    
+}
+.gallary-two .gallary-two-img-3 {
+    background-image: url(../Image/bag.jpg);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    align-content: center;
+    
+}
+.gallary-two .gallary-two-img-4 {
+    background-image: url(../Image/sandal.jpg);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    align-content: center;
+}
+
+.gallary-two .arrow {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.shoe-class{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto; 
+}
+.img-contain-three{
+    display: flex;
+    flex-direction: row;
+    
+}
+.img-contain-three img{
+    width: 300px;
+    height: 400px;
+    padding: 80px 3px 80px 15px;
+    
+}
+.sample{
+    display: flex;
+    flex-direction: column;
+    padding: 70px 10px 20px 30px ;
+}
+.sample h3 {
+    font-size: 2.3rem;
+    font-weight: 100;
+}
+.sample span {
+    font-size: 2.5rem;
+    font-weight: 550;
+}
+.sample p{
+    font-size: 1rem;
+}
+.sample button {
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 60%;
+    border: unset;
+    border-radius: 50px;
+    font-size: 1rem;
+}
+.last-img-sec{
+    display: flex;
+    flex-direction: row;
+}
+
+.lats-sec .last img {
+    height: 650px;
+    width: 600px;
+    border: unset;
+    position: relative;
+    flex: 1;
+}
+hr {
+    margin-top: 105px;
+    margin-bottom: 0;
+    height: 10px;
+    transform-origin: left center;
+    width: 80%;
+    background: #d9b1b3;
+    border: unset;
+}
+.last-text-sec h3{
+    font-style: italic;
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 700;
+    text-transform: none;
+    margin: 20px 0 0;
+}
+.last-text-sec form {
+    display: flex;
+    justify-content: center;
+    padding: 30px 20px 20px 30px;
+    justify-content: space-around;
+    
+}
+.last-text-sec form input{
+    font-size: 1.3rem;
+    height: 35px;
+    width: 260px;
+    border-color: #b3b3b3;
+    border-style: solid;
+    color: #111111;
+    background-color: #ffffff;
+    border-width: 1px;
+    padding: 10px 12px;
+}
+.last-text-sec button{
+    border: unset;
+    margin: 0 auto;
+    width: 20%;
+    height: 50px;
+    padding: 20px 10px 0 40px;
+    color: white;
+    background-color: black;
+    border-radius: 30px
+}
+.last-text-sec span{
+    font-size: 1rem;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+}
+.socials{
+    padding: 20px 270px;
+    margin: 0 auto;
+}
+.socials .twitter{
+    padding: 0 13px;
+}
+
+  
+
+
+
+
